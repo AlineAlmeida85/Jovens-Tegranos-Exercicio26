@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>EXERCÍCIO 26</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="page-header">EXERCÍCIO 26</h1>
+                <p>Fazer um programa para receber uma palavra (string); Calcular a
+                    quantidade de vogais e a quantidade consoantes da palavra; Exibir os
+                    valores calculados.</p>                                                
+                <p>Exemplo:<br>
+                    Palavra:
+                    <span style="color: red;">Orangotango</span><br>
+                    Vogais: 5<br>
+                    Consoantes: 6</p>                    
+            </div>
+        </div>
+        <div class="container formulario">
+            <form>                
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Palavra:</span>
+                        <input id="inputPalavra" class="form-control" aria-describedby="sizing-addon1"> 
+                        <span class="input-group-addon"></span>                        
+                    </div>                  
+                </div>
+                                                                                                                         
+                <button type="button" class="btn btn-info" onclick="verificar()">Verificar</button>
+            </form>
+        </div>
+        <br>
+        <div class="container formulario" id="form2">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Vogais:</span>                
+                        <p class="form-control" id="rVogais"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div>                
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Consoantes:</span>                
+                        <p class="form-control" id="consoantes"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div>                                             
+            </form>      
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+            </div>
+        </div>
+        <script src="./script.js"></script>     
+    </body>
+</html>
